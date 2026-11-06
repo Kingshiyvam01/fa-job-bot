@@ -1,0 +1,614 @@
+# One company per line. The bot tries each on Greenhouse, Lever and Ashby.
+# Add or remove names anytime. Lines starting with # are ignored.
+# --- Fintech / payments ---
+Stripe
+Ramp
+Brex
+Plaid
+Robinhood
+Chime
+SoFi
+Affirm
+Marqeta
+Toast
+Mercury
+Carta
+Gusto
+Rippling
+Justworks
+Bill
+Navan
+Airwallex
+Wise
+Square
+Block
+Coinbase
+Kraken
+Gemini
+Circle
+Ripple
+Anchorage Digital
+Paxos
+Betterment
+Wealthfront
+Acorns
+Stash
+Public
+Webull
+Current
+Dave
+MoneyLion
+Varo
+Upstart
+LendingClub
+Oportun
+Avant
+Best Egg
+Figure
+Blend
+Better
+Rocket
+Valon
+Pagaya
+Payoneer
+Flywire
+Remitly
+AvidXchange
+Tipalti
+Melio
+Navan
+Pipe
+Clearco
+Capchase
+Arcadia
+Bolt
+Checkout
+Adyen
+Nuvei
+Billtrust
+Expensify
+Zip
+Teampay
+Spendesk
+Pilot
+Bench
+Modern Treasury
+Unit
+Treasury Prime
+Synctera
+Alloy
+Socure
+Sardine
+Persona
+Lithic
+Highnote
+Payward
+Apex Fintech Solutions
+Addepar
+Orion
+Envestnet
+iCapital
+CAIS
+Moov
+Dwolla
+Petal
+Mission Lane
+Tally
+Aspiration
+Trust & Will
+Ethos
+Lemonade
+Root
+Hippo
+Kin
+Next Insurance
+Coalition
+At-Bay
+Newfront
+Vouch
+Clearcover
+Openly
+Pie Insurance
+Embroker
+Bestow
+Policygenius
+# --- Asset mgmt / finance / data ---
+Bridgewater Associates
+Two Sigma
+AQR
+Point72
+Citadel
+Jane Street
+Hudson River Trading
+DRW
+Jump Trading
+Tower Research
+Virtu
+Akuna Capital
+Optiver
+IMC
+Susquehanna
+Man Group
+Millennium
+Balyasny
+Schonfeld
+ExodusPoint
+Squarepoint
+PDT Partners
+WorldQuant
+Arrowstreet Capital
+Wellington Management
+Putnam
+MFS
+Loomis Sayles
+Eaton Vance
+Pzena
+Neuberger Berman
+Lazard
+Evercore
+PJT Partners
+Moelis
+Houlihan Lokey
+Guggenheim
+Jefferies
+Cowen
+Piper Sandler
+Raymond James
+Stifel
+William Blair
+Baird
+Lincoln International
+Harris Williams
+KKR
+Blackstone
+Apollo
+Carlyle
+TPG
+Bain Capital
+Advent International
+Thoma Bravo
+Vista Equity Partners
+Insight Partners
+General Atlantic
+Silver Lake
+Warburg Pincus
+Hellman & Friedman
+Leonard Green
+Ares Management
+Blue Owl
+Golub Capital
+HPS Investment Partners
+Sixth Street
+Oaktree
+Brookfield
+Hamilton Lane
+StepStone
+Cambridge Associates
+Fidelity
+State Street
+Vanguard
+Morningstar
+MSCI
+FactSet
+S&P Global
+Moodys
+Fitch
+PitchBook
+Preqin
+Bloomberg
+Broadridge
+SS&C
+Clearwater Analytics
+Enfusion
+Arcesium
+BlackRock
+Invesco
+Franklin Templeton
+T. Rowe Price
+Nuveen
+PIMCO
+# --- Real estate / proptech ---
+Greystar
+Tishman Speyer
+Related Companies
+Hines
+Boston Properties
+JLL
+CBRE
+Cushman & Wakefield
+Colliers
+Newmark
+Marcus & Millichap
+Walker & Dunlop
+Berkadia
+Arbor Realty
+ACORE Capital
+Starwood Capital
+Invitation Homes
+American Homes 4 Rent
+Roofstock
+Opendoor
+Offerpad
+Compass
+Redfin
+Zillow
+Pacaso
+Landa
+Fundrise
+Cadre
+Juniper Square
+VTS
+Latch
+Bilt
+Divvy Homes
+Arrived
+Belong
+Sonder
+Mynd
+Common
+Bungalow
+Blueground
+Industrious
+WeWork
+Convene
+# --- Tech / SaaS ---
+Airbnb
+Uber
+Lyft
+DoorDash
+Instacart
+Pinterest
+Reddit
+Snap
+Spotify
+Netflix
+Dropbox
+Box
+Asana
+Notion
+Figma
+Canva
+Airtable
+Atlassian
+HubSpot
+Datadog
+Snowflake
+Databricks
+MongoDB
+Elastic
+Confluent
+HashiCorp
+GitLab
+Cloudflare
+Okta
+Twilio
+Zendesk
+Intercom
+Gong
+Outreach
+Salesloft
+Klaviyo
+Braze
+Amplitude
+Mixpanel
+Segment
+Fivetran
+dbt Labs
+Anthropic
+OpenAI
+Scale AI
+Cohere
+Perplexity
+Glean
+Vercel
+Linear
+Retool
+Webflow
+Squarespace
+Wix
+Shopify
+Faire
+Flexport
+Samsara
+Motive
+Verkada
+Rubrik
+Cohesity
+Palantir
+Anduril
+SpaceX
+Relativity Space
+Rocket Lab
+Benchling
+Veeva
+Toast
+Wayfair
+Chewy
+Etsy
+eBay
+Poshmark
+ThredUp
+Rent the Runway
+Warby Parker
+Allbirds
+Glossier
+Away
+Peloton
+Oura
+Whoop
+Strava
+Duolingo
+Coursera
+Chegg
+Grammarly
+Calendly
+Zapier
+Miro
+Loom
+Lattice
+Culture Amp
+Deel
+Remote
+Oyster
+Papaya Global
+Paylocity
+Paycor
+Workiva
+BlackLine
+Anaplan
+Pigment
+Planful
+Vena Solutions
+Cube
+Mosaic
+Runway Financial
+Abacum
+Datarails
+Coupa
+Zuora
+Chargebee
+Maxio
+Avalara
+Vertex
+Intuit
+Xero
+FreshBooks
+Sage
+Procore
+ServiceTitan
+Housecall Pro
+Jobber
+Mindbody
+Klarna
+Afterpay
+Sezzle
+Splitit
+Uplift
+Nubank
+Revolut
+Monzo
+N26
+# --- Healthcare / life sciences ---
+Oscar Health
+Devoted Health
+Clover Health
+Alignment Healthcare
+Bright Health
+Cityblock Health
+Oak Street Health
+One Medical
+Carbon Health
+Forward
+Ro
+Hims & Hers
+Noom
+Omada Health
+Hinge Health
+Sword Health
+Spring Health
+Lyra Health
+Headspace
+Talkspace
+Cerebral
+Thirty Madison
+Nurx
+Maven Clinic
+Kindbody
+Carrot Fertility
+Progyny
+Included Health
+Transcarent
+Garner Health
+Collective Health
+Accolade
+Zocdoc
+Doximity
+Komodo Health
+Flatiron Health
+Tempus
+Color Health
+Ginkgo Bioworks
+Moderna
+Vertex Pharmaceuticals
+Alnylam
+Biogen
+Insmed
+Recursion
+Insitro
+Abridge
+Commure
+Athenahealth
+Waystar
+Olive
+Cedar
+Zelis
+Alpaca Health
+Peerlogic
+# --- Consumer / food / retail ---
+Sweetgreen
+Cava
+Chipotle
+Shake Shack
+Dutch Bros
+PopUp Bagels
+Wingstop
+Starbucks
+Blue Apron
+HelloFresh
+Gopuff
+Misfits Market
+Thrive Market
+Hungryroot
+Daily Harvest
+Olipop
+Liquid Death
+Athletic Brewing
+Oatly
+Beyond Meat
+Impossible Foods
+Vital Farms
+Mondelez
+Kraft Heinz
+Skims
+Fabletics
+Savage X Fenty
+Quince
+Everlane
+Aritzia
+Lululemon
+Vuori
+Alo Yoga
+On Running
+Hoka
+Gymshark
+Parachute
+Brooklinen
+Casper
+Purple
+Article
+Burrow
+Interior Define
+Ollie
+BarkBox
+Farmers Dog
+Rover
+Wag
+# --- Energy / climate / infra ---
+Lodestar Energy
+Nautilus Solar
+Arcadia Power
+Sunrun
+Sunnova
+Sunpower
+Palmetto
+Aurora Solar
+Enphase
+Fluence
+Form Energy
+Redwood Materials
+Rivian
+Lucid
+Tesla
+ChargePoint
+EVgo
+Electrify America
+Commonwealth Fusion Systems
+Helion
+Climeworks
+Watershed
+Persefoni
+Pachama
+Patch
+Heirloom
+Twelve
+Generate Capital
+Intersect Power
+Pine Gate Renewables
+Silicon Ranch
+Origis Energy
+Cypress Creek Renewables
+Summit Ridge Energy
+Nexamp
+Dimension Energy
+Ampion
+# --- Media / sports / entertainment ---
+Fanatics
+DraftKings
+FanDuel
+Underdog Fantasy
+PrizePicks
+Sleeper
+Genius Sports
+Sportradar
+WHOOP
+Barstool Sports
+The Athletic
+Axios
+Vox Media
+BuzzFeed
+Substack
+Patreon
+Cameo
+Discord
+Roblox
+Epic Games
+Riot Games
+Niantic
+Unity
+Scopely
+Skydance
+A24
+Endeavor
+Live Nation
+SeatGeek
+StubHub
+Vivid Seats
+Eventbrite
+Pixability
+Applecart
+# --- Boston area ---
+Wayfair
+Toast
+HubSpot
+DraftKings
+Klaviyo
+Rapid7
+Cybereason
+Drift
+Formlabs
+Markforged
+Boston Dynamics
+Moderna
+Ginkgo Bioworks
+Cogo Labs
+Lovepop
+Rue La La
+Ezcater
+Fiverr
+Hopper
+Simon-Kucher
+Bain & Company
+Boston Consulting Group
+Analysis Group
+Cornerstone Research
+Charles River Associates
+Compass Lexecon
+Brattle Group
+Wellington Management
+Fidelity
+State Street
+Putnam
+Loomis Sayles
+Natixis
+Berkshire Partners
+TA Associates
+Summit Partners
+Audax
+Abry Partners
+HarbourVest
+Adage Capital
+Baupost
+Arrowstreet Capital
+Acadian Asset Management
+GMO
+Hamilton Lane
