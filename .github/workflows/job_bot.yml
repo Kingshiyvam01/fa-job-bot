@@ -1,0 +1,48 @@
+name: FA Job Bot
+on:
+  schedule:
+    - cron: "*/20 11-23,0-3 * * *"
+    - cron: "0 14 * * 0"
+    - cron: "0 12 * * 6"
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "What to run"
+        type: choice
+        options: [check, discover, digest]
+        default: check
+permissions:
+  contents: write
+concurrency:
+  group: fa-job-bot
+  cancel-in-progress: false
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.11" }
+      - run: pip install -r requirements.txt
+      - name: Pick mode
+        id: m
+        run: |
+          MODE="check"
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then MODE="${{ github.event.inputs.mode }}"; fi
+          if [ "${{ github.event.schedule }}" = "0 14 * * 0" ]; then MODE="digest"; fi
+          if [ "${{ github.event.schedule }}" = "0 12 * * 6" ]; then MODE="discover"; fi
+          echo "mode=$MODE" >> $GITHUB_OUTPUT
+      - name: Run bot
+        run: python job_bot.py ${{ steps.m.outputs.mode }}
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+      - name: Save state
+        run: |
+          git config user.name "job-bot"
+          git config user.email "bot@users.noreply.github.com"
+          git add seen_jobs.json skipped_jobs.json discovered.json 2>/dev/null || true
+          git diff --cached --quiet || git commit -m "bot state update"
+          git pull --rebase -q || true
+          git push
