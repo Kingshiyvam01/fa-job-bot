@@ -1642,5 +1642,11 @@
   "ats": "lever",
   "slug": "gmo",
   "query": "GMO"
+ },
+ {
+  "name": "Employment Opportunities at BuzzFeed, Inc.",
+  "ats": "greenhouse",
+  "slug": "buzzfeed",
+  "query": "BuzzFeed"
  }
 ]
